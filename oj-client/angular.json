@@ -19,14 +19,15 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
+             "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "/home/qu/projects/Real-time-Collaborative-Online-Judge-System/oj-client/node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": [],
-            "es5BrowserSupport": true
+            "scripts": [
+              "/home/qu/projects/Real-time-Collaborative-Online-Judge-System/oj-client/node_modules/jquery/dist/jquery.js",
+              "/home/qu/projects/Real-time-Collaborative-Online-Judge-System/oj-client/node_modules/bootstrap/dist/js/bootstrap.js"]
           },
           "configurations": {
             "production": {
