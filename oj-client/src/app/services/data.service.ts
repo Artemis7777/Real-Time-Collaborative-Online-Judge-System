@@ -3,7 +3,9 @@ import { Problem } from "../models/problem.model";
 import { PROBLEMS } from "../mock-problems";
 
 
-@Injectable()
+@Injectable({
+	providedIn: 'root'
+})
 export class DataService {
 
   constructor() { }
